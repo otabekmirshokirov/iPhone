@@ -233,20 +233,15 @@ margin-bottom: 61px;
 .smart{
   display: grid;
   margin-bottom: 64px;
+  gap: 49px;
   grid-template-columns: repeat(3,2fr);
 }
 .smartt{
-  width: 334px;
-height: 337px;
-top: 573px;
-gap: 0px;
-opacity: 0px;
 background: #F6F6F6;
-display: flex;
-justify-content: center;
 margin-bottom: 64px;
+padding: 29px 43px 27px 41px;
 }
-button{
+.moree{
   width: 196px;
 height: 46px;
 top: 1586px;
@@ -382,3 +377,137 @@ color: #FFFFFF;
 margin-top: 23px;
 cursor: pointer;
 }
+.riight {
+text-align: center;
+margin-bottom: 8px;
+}
+#nav-open {
+  display: none;
+  background-color: red;
+}
+
+#navbar-responsive {
+backdrop-filter: blur(20px);
+  position: fixed;
+  top: 0;
+  left: -100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  bottom: 0;
+  align-items: center;
+  width: 100%;
+  transition: 0.5s;
+}
+
+#navbar-close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background: transparent;
+ border: none;
+  cursor: pointer;
+}
+.navbar-link{
+  font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 49px;
+height: 24px;
+top: 23px;
+left: 919px;
+gap: 0px;
+opacity: 0px;
+color: #0B0B0B;
+margin-bottom: 15px;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.menu{
+  display: none;
+  width: 80px;
+  height: 40px;
+  background: transparent;
+  border: none;
+}
+@media(max-width:800px){
+  .social-links{
+    display: none;
+  }
+}
+@media(max-width:700px){
+  .nav-list
+ { 
+    display: none;
+  }
+  .menu{
+    display: block;
+  }
+}
+@media(max-width:935px){
+  .rightt img
+{
+display: none
+  
+  }
+  .leftt p{
+    width: 70%;
+  }
+
+
+  }
+  @media(max-width:1043px){
+    .apple{
+ display: block;
+
+    }
+    .applee{
+      margin-bottom: 20px;
+    }
+    .xioami{
+      margin-bottom: 20px;
+    }
+    .fitbit{
+      margin-bottom: 20px;
+
+    }
+  }
+  @media(max-width:733px){
+.findd h6{
+  display:none
+}
+.late h4{
+  display: none
+}
+  }
+  @media(max-width:1131px){
+    .smart{
+display: block;
+    }
+  }
+  @media(max-width:907px){
+    .kkks{
+      display: none;
+    }
+  }
+  @media(max-width:1036px){
+    .yo{
+display: none;
+    }
+  }
+  @media(max-width:1400px
+  ){
+    footer{
+      display: none;
+    }
+  }
+  
+  
+  
